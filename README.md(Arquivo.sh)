@@ -1,0 +1,10 @@
+Entrei no meu diretorio utilizando o comando "cd /home/emerson/modelo2/python
+utilizei o comando "ls" para listar as pastas dentro do meu diretório principal.
+Utilizei o comando "ll" para listar as permissões de cada pasta no meu diretório.
+Utilizei o comando "chmod 755 (todas minhas pastas sem permissoes de leitura, ediçaõ e visualização)"
+Novamente dei um "ll" para rever as permissões e analisar se estão corretas.
+Executei meu Python através do comando "./python_script.sh"
+Em seguida, criei um arquivo .txt atraves do comando "touch".
+Utilizei o comando "nano" para editar o arquivo criado.
+Utilizei o comando "ll" para listar as pastas e verificar se o arquivo foi criado
+Utilizei o comando "cat" para visualizar o conteúdo do arquivo criado.

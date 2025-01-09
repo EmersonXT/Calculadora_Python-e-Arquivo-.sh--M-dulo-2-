@@ -1,2 +1,65 @@
-# Calculadora_Python e Arquivo .sh (Módulo 2)
- 
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "BVsOIu861YC_"
+      },
+      "outputs": [],
+      "source": [
+        "nome_usuario = input (\"Por favor, Insira seu nome:\")\n",
+        "print (f\"Olá, {nome_usuario} ! Bem Vindo ao sistema.\")\n",
+        "valor = float(input (\"Por favor, insira um valor \"))\n",
+        "valor_2 = float(input (\"Por favor, insira um segundo valor no cálculo \"))\n",
+        "print (f\"Ok, {nome_usuario} ! Então os valores escolhidos foram {valor} e {valor_2}\")\n",
+        "# Escolha entre os símbolos + , - , * , /.\n",
+        "calculo = input (\"Qual será o cálculo desejado com esses valores? \")\n",
+        "if calculo ==\"+\":\n",
+        "   resultado = valor + valor_2\n",
+        "   print (f\"O resultado obtido foi {resultado}\")\n",
+        "elif calculo ==\"-\":\n",
+        "   resultado = valor - valor_2\n",
+        "   print (f\"O resultado obtido foi {resultado}\")\n",
+        "elif calculo ==\"*\":\n",
+        "   resultado = valor * valor_2\n",
+        "   print (f\"O resultado obtido foi {resultado}\")\n",
+        "elif calculo ==\"/\":\n",
+        "   resultado = valor / valor_2\n",
+        "   print (f\"O resultado obtido foi {resultado}\")\n",
+        "# Escolha entre \"continuar\" e \"finalizar\"\n",
+        "valor_3 = str(input (\"Deseja finalizar o sistema ou continuar com um terceiro valor ao cálculo? \"))\n",
+        "if valor_3 == \"finalizar\":\n",
+        "  print (\"Obrigado por utilizar do sistema!\")\n",
+        "elif valor_3 == \"continuar\":\n",
+        "     valor_4 = float(input (\"Por favor, insira um terceiro valor \"))\n",
+        "# Escolha entre os símbolos + , - , * , /.\n",
+        "     calculo_2 = input (\"Qual será o calculo com o novo valor e o resultado anterior? \")\n",
+        "     if calculo_2 ==\"+\":\n",
+        "        print (f\"O resultado obtido foi {resultado + valor_4}\")\n",
+        "     elif calculo_2 ==\"-\":\n",
+        "        print (f\"O resultado obtido foi {resultado - valor_4}\")\n",
+        "     elif calculo_2 ==\"*\":\n",
+        "        print (f\"O resultado obtido foi {resultado * valor_4}\")\n",
+        "     elif calculo_2 ==\"/\":\n",
+        "        print (f\"O resultado obtido foi {resultado / valor_4}\")\n",
+        "print (\"Obrigado por utilizar do sistema!\")\n",
+        ""
+      ]
+    }
+  ]
+}

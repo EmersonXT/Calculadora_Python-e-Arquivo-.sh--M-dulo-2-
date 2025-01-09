@@ -1,0 +1,15 @@
+Explicação do Funcionamento do cálculo.
+
+ Peço ao usuário para colocar seu nome, utilizei o comamdo "input". 
+ Utilizei o comando "print" para mostrar o resultado da ação anterior.
+ Denomino o nome das variáveis das proximas ações do usuário como "valor_1" e "valor2", utilizei os comandos "float" para aceitar apenas números e "input" para aceitar respostas do usuário.
+ Novamente utilizo o comando "print" para dar uma resposta visível ao usuário.
+ Peço ao usuário que coloque o tipo de calculo que será feito com o "valor_1" e "valor_2", enfatizando símbolos de + , - , / , *.
+ Utilizo o comando "elif" para dar uma resposta conforme a escolha de cálculo e o comando print para mostrar o resultado ao usuário.
+ Utilizo da variável chamada "resultado" para ser o nome dado á resposta do cálculo desejado do usuário, será utilizada mais á frente.
+ Nomeio a resposta do usuário quanto a pergunta feita como variável "valor_3", alem de utilizar do comando string para aceitar somente letras e input pra aceitar a resposta.
+ Enfatizo as respostas do usuário como "finalizar" e "continuar", tambem utilizei os comandos "if" e "elif" para ser alternativa e "print" para mostrar resultado.
+ Se a resposta do usuário for "finalizar", a calculadora se encerrará, se for "continuar", a calculadora continuará.
+ Se o usuário escolher continuar, nao haverá grandes mudanças no código e ele manterá o mesmo princípio das partes "3,4,5,6" exceto pelo nome das variáveis que serão mudadas para "valor_4" e "cálculo_2".
+ Quando o usuário escolher os valores e o cálculo desejado, tal novo valor sera calculado junto a variável "resultado" feita anteriormente na parte "7".
+ Utilizo o comando "print" para mostrar o resultado do cálculo e finalizar o Cálculo_Python. 
